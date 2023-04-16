@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+   
+    border-collapse: collapse;
+    width: 100vh;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.header {
+    background-color: #34236c;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+tr:hover {
+    background-color: #010101;
+    transform: scale(1.04);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    /* color: inherit !important; */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(230, 230, 230, 0.1);
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%);
+    border-radius: 20px;
+    background-color: #f7f1e3;
+}
